@@ -1,23 +1,20 @@
 {
-  "name": "spryker/product-group",
+  "name": "spryker/product-set",
   "description": "ProductSet bundle",
   "license": "proprietary",
   "require": {
-    "spryker/kernel": "^3.0.0",
+    "spryker/kernel": "^3.4.0",
     "spryker/key-builder": "^1.0.0",
-    "spryker/product": "^5.0.0",
+    "spryker/locale": "^3.0.0",
+    "spryker/product-image": "^3.3.0",
     "spryker/propel-orm": "^1.1.0",
-    "spryker/storage": "^3.0.0",
     "spryker/touch": "^3.0.0",
-    "spryker/twig": "^3.0.0"
+    "spryker/url": "^3.0.0"
   },
   "require-dev": {
     "spryker/code-sniffer": "*",
     "spryker/propel": "^3.0.0",
     "spryker/testify": "*"
-  },
-  "suggest": {
-    "spryker/silex": "If you want to use the ProductSetTwigServiceProvider you need to install spryker/silex."
   },
   "autoload": {
     "psr-4": {
